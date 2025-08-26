@@ -1,5 +1,5 @@
 from fastapi import FastAPI, HTTPException
-from models import emp
+from model_val import emp
 from typing import List
 
 emp_db: list[emp] = []
